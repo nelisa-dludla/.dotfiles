@@ -1,0 +1,10 @@
+# Neovim
+1. Install Neovim from Neovim repo
+2. Move nvim-linux64 to .config/neovim
+3. Move nvim directory to .config
+
+# Download i3 and i3blocks
+1. Move i3 directory to .config
+2. Move i3blocks directory to .config
+
+# Install Nitrogen

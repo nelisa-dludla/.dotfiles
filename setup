@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script installs all the necessary software and configure them
+
+# Swap out .bashrc file
+ln -sf .bashrc ~/.bashrc
+echo ".bashrc has been updated"
+
+# Add nvim files to .config directory
+ln -s nvim ~/.config
+
