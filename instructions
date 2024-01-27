@@ -8,3 +8,14 @@
 2. Move i3blocks directory to .config
 
 # Install Nitrogen
+
+# Install Picom
+1. Move picom.conf to .config
+
+# Programs/Depencies:
+
+npm
+MySQL
+nginx
+python3 - pycodestyle
+C - betty
