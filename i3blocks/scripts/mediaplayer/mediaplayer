@@ -1,0 +1,32 @@
+#!/bin/bash
+
+spotify_status=$(playerctl -p spotify status 2>/dev/null)
+spotify_artist=$(playerctl -p spotify metadata artist 2>/dev/null)
+spotify_title=$(playerctl -p spotify metadata title 2>/dev/null)
+
+player_status=$(playerctl status 2>/dev/null)
+artist=$(playerctl metadata artist 2>/dev/null)
+title=$(playerctl metadata title 2>/dev/null)
+
+if [ "$spotify_status" == "Playing" ]; then
+    echo " $spotify_artist - $spotify_title"
+    echo " $spotify_artist - $spotify_title"
+    echo "#00FF00"
+elif [ "$player_status" == "Playing" ]; then
+    echo " $artist - $title"
+    echo " $artist - $title"
+    echo "#00FF00"
+elif [ "$spotify_status" == "Paused" ]; then
+    echo " $spotify_artist - $spotify_title"
+    echo " $spotify_artist - $spotify_title"
+    echo "#FFAE00"
+elif [ "$player_status" == "Paused" ]; then
+    echo " $artist - $title"
+    echo " $artist - $title"
+    echo "#FFAE00"
+else
+    echo " No music"
+    echo " No music"
+    echo "#FFFFFF"
+fi
+
