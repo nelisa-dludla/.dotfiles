@@ -24,8 +24,8 @@ opt.splitbelow = true
 opt.clipboard:append("unnamedplus")
 
 -- Disable Netrw
-g.loaded_netrw = 1
-g.loaded_netrwPlugin = 1
+-- g.loaded_netrw = 1
+-- g.loaded_netrwPlugin = 1
 
 -- Theme
 opt.background = "dark"

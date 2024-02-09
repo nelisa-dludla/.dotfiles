@@ -7,8 +7,8 @@ vim.g.mapleader = ' '
 -- Open inline command line
 vim.api.nvim_set_keymap('n', '<leader>c', ':! ', { noremap = true })
 
--- Toggle NvimTree
-vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>', { noremap = true })
+-- Open Netrw
+vim.api.nvim_set_keymap('n', '<leader>e', ':Explore<CR>', { noremap = true })
 
 -- Clear search highlights
 keymap.set('n', '<leader>nh', ':nohl<CR>')

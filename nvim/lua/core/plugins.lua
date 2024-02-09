@@ -13,7 +13,6 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
   'wbthomason/packer.nvim',
-  'vimoxide/vim-cinnabar',
   'nvim-treesitter/nvim-treesitter',
   'nvim-lualine/lualine.nvim',
   'williamboman/mason.nvim',
@@ -25,7 +24,6 @@ local plugins = {
   'L3MON4D3/LuaSnip',
   'saadparwaiz1/cmp_luasnip',
   'rafamadriz/friendly-snippets',
-  'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'FelipeIzolan/lipoide.nvim',
   {
