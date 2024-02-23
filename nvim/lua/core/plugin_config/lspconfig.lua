@@ -4,4 +4,12 @@ lspconfig.clangd.setup{}
 lspconfig.pyright.setup{}
 lspconfig.html.setup{}
 lspconfig.emmet_language_server.setup{}
-lspconfig.gopls.setup{}
+lspconfig.htmx.setup{}
+lspconfig.gopls.setup{
+	settings = {
+		['gopls'] = {
+			completeUnimported = true,
+			usePlaceholders = true,
+		},
+	},
+}

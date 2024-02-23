@@ -139,3 +139,4 @@ eval "$(starship init bash)"
 
 # Directory color
 export LS_COLORS=$LS_COLORS:'di=1;32:'  # Change it to green
+export PATH=$PATH:/usr/local/go/bin

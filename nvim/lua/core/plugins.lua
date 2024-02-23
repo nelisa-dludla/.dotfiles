@@ -18,12 +18,14 @@ local plugins = {
   'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
   'neovim/nvim-lspconfig',
+  -- Autocomplete
   'hrsh7th/nvim-cmp',
-  'hrsh7th/cmp-buffer',
-  'hrsh7th/cmp-path',
-  'L3MON4D3/LuaSnip',
-  'saadparwaiz1/cmp_luasnip',
+  {
+	  'L3MON4D3/LuaSnip',
+	  dependencies = { 'saadparwaiz1/cmp_luasnip' }
+  },
   'rafamadriz/friendly-snippets',
+  'hrsh7th/cmp-nvim-lsp',
   'nvim-tree/nvim-web-devicons',
   'FelipeIzolan/lipoide.nvim',
   {

@@ -27,6 +27,9 @@ opt.clipboard:append("unnamedplus")
 -- g.loaded_netrw = 1
 -- g.loaded_netrwPlugin = 1
 
+-- Disables banner
+g.netrw_banner = 0
+
 -- Theme
 opt.background = "dark"
 cmd("colorscheme lipoide")
