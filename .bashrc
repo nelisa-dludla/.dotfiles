@@ -133,6 +133,7 @@ alias i3config="nv ~/.config/i3/config"
 alias sleep="systemctl suspend"
 alias shutdown="systemctl poweroff"
 alias notebook="python -m notebook"
+alias templ="~/go/bin/templ"
 
 # Starships 
 eval "$(starship init bash)"

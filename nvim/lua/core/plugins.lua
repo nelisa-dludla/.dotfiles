@@ -13,7 +13,10 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
   'wbthomason/packer.nvim',
-  'nvim-treesitter/nvim-treesitter',
+  {
+	  'nvim-treesitter/nvim-treesitter',
+	  dependencies = { 'vrischmann/tree-sitter-templ' }
+  },
   'nvim-lualine/lualine.nvim',
   'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
@@ -30,7 +33,10 @@ local plugins = {
   'FelipeIzolan/lipoide.nvim',
   {
     'nvim-telescope/telescope.nvim',
-      dependencies = { 'nvim-lua/plenary.nvim' }
+      dependencies = {
+		  'nvim-lua/plenary.nvim',
+		  'BurntSushi/ripgrep'
+	  }
   }
 }
 
